@@ -24,7 +24,7 @@ function fetchData(id, cb){
   });
 }
 ```
-위 코드는 흔이 있는 콜백지옥이다. promise객체를 사용하면 다음과 같다.
+위 코드는 콜백지옥이다. promise객체를 사용하면 다음과 같다.
 
 ```javascript
 function fetchData(id){
