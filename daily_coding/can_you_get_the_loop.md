@@ -1,5 +1,5 @@
 #Codewars #20
-##Quesion
+##Question
 Description:
 
 You are given a node that is the beginning of a linked list. This list always contains a tail and a loop.
