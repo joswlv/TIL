@@ -12,6 +12,7 @@ cities는 도시 이름으로 이뤄진 문자열 배열로, 최대 도시 수�
 cache hit일 경우 실행시간은 1이다.
 cache miss일 경우 실행시간은 5이다.
 입출력 예제
+
 |캐시크기(cacheSize)|도시이름(cities)|실행시간
 |----|----|-----|
 |3|[Jeju, Pangyo, Seoul, NewYork, LA, Jeju, Pangyo, Seoul, NewYork, LA]|50|
