@@ -43,7 +43,7 @@ public class SecretMap {
 		String[] answer = new String[n];
 		for (int i = 0; i < n; i++) {
 			String line = Integer.toBinaryString(arr1[i] | arr2[i])
-					.replaceAll("1","#").replaceAll("0","!");
+					.replaceAll("1","#").replaceAll("0"," ");
 			if (line.length() != n) {
 				String blank = " ";
 				line = repeat(blank,n-line.length()) + line;
